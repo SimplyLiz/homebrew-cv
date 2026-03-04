@@ -3,7 +3,7 @@ cask "cv" do
   name "cv"
   desc "CognitiveVault CLI - manage knowledge vaults from the terminal"
   homepage "https://cognitive-vault.com"
-  version "0.2.0"
+  version "0.3.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "cv" do
   on_macos do
     on_intel do
       url "https://github.com/SimplyLiz/cognitive-vault/releases/download/v#{version}/cv_#{version}_darwin_amd64.tar.gz"
-      sha256 "61b3acfa52e7c58544f91228006e6f09a12dc2a302aa7bad5c02ce61792ad14f"
+      sha256 "695f25631cd0174b633e749e239bae15fbe3667b0a7f2e05673b4b102e11be48"
     end
     on_arm do
       url "https://github.com/SimplyLiz/cognitive-vault/releases/download/v#{version}/cv_#{version}_darwin_arm64.tar.gz"
-      sha256 "7ef62675610f789913bec58648f1d409a08060cf4cf175a76dada13be8eaef03"
+      sha256 "925ea86deb2a7ffac0afe7066d8a9d271882cc2361f3c571c98ed27ff6033628"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/SimplyLiz/cognitive-vault/releases/download/v#{version}/cv_#{version}_linux_amd64.tar.gz"
-      sha256 "3311562d256d9819e35c17245bf3d2de07482bc78dd448897d916c3837c9e947"
+      sha256 "b4f407fc56d57b90f1d85de06504ddc0a7668ea4dbebfaf9e3cf5234085c23e6"
     end
     on_arm do
       url "https://github.com/SimplyLiz/cognitive-vault/releases/download/v#{version}/cv_#{version}_linux_arm64.tar.gz"
-      sha256 "574d3bb5aacdbd4213c81676db413e004eb17aecea5043014a398dcf43faaba0"
+      sha256 "d9a6b61d9ac309c0413bffd42a3bcb2d58d34c2db9a343313ab27602a04bfa6f"
     end
   end
 
